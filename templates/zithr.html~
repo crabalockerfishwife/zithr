@@ -1,0 +1,8 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+  <object id="zither" data="../static/zither.svg" type="image/svg+xml"></object>
+</body>
+</html>
