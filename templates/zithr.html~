@@ -1,8 +1,11 @@
 <!doctype html>
 <html>
 <head>
+<script src="zithr.js"></script>
 </head>
 <body>
+  <center>
   <object id="zither" data="../static/zither.svg" type="image/svg+xml"></object>
+  </center>
 </body>
 </html>

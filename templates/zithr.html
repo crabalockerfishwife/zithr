@@ -1,11 +1,24 @@
 <!doctype html>
 <html>
 <head>
-<script src="zithr.js"></script>
+<script>
+  var zither;
+  var svgdoc;
+  var svg;
+
+  window.onload=function(){
+      zither = document.getElementById("zither");
+      svgdoc = zither.contentDocument;
+      svg = svgdoc.getElementById("svg2");
+      svgdoc.getElementById("layer3").setAttribute("fill","#080808");
+   };
+</script>
+<style>
+</style>
 </head>
 <body>
   <center>
-  <object id="zither" data="../static/zither.svg" type="image/svg+xml"></object>
+  <object id="zither" data="../static/zithercopy.svg" type="image/svg+xml"></object>
   </center>
 </body>
 </html>
