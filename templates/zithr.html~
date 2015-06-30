@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<title>zithr</title>
 <script>
   var zither;
   var svgdoc;
@@ -14,15 +15,10 @@
    };
 </script>
 <style>
+
 </style>
 </head>
 <body>
-  <center>
-  <object id="zither" data="../static/body.svg" type="image/svg+xml"></object>
-  </center>
-  <br>
-  <br>
-  <br>
-  <br>
+  <object id="zither" data="../static/zither-final.svg" type="image/svg+xml"></object>
 </body>
 </html>
