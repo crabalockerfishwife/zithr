@@ -6,13 +6,20 @@
   var zither;
   var svgdoc;
   var svg;
+  var strings = ["c1","b1","a1","g#1","g1","f#1","f1","e1","d1","c#1","c2","b2","a2","g#2","g2","f#2","f2","e2","d2","c#2","c3","c4","g3","c5","e3","g4","g5","b3","d3","f3","a3","c6","f4","d4","f#3","a4","d5","a5","c#3","a6","e4"];
 
   window.onload=function(){
-      zither = document.getElementById("zither");
-      svgdoc = zither.contentDocument;
-      svg = svgdoc.getElementById("svg2");
-      svgdoc.getElementById("c1").setAttribute("style","stroke:#00ff00");
-   };
+  zither = document.getElementById("zither");
+  svgdoc = zither.contentDocument;
+  svg = svgdoc.getElementById("svg2");
+  for (i=0; i<strings.length; i++){
+	svgdoc.getElementById(strings[i]).setAttribute("style","stroke:#00ff00");
+	console.log(strings[i]);
+	stringid = strings[i];
+	setTimeout(function() {svgdoc.getElementById(stringid).setAttribute("style","stroke:#000000");}, 1000);
+  }	      
+  };			      
+			     
 
 </script>
 <style>

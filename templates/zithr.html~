@@ -13,12 +13,14 @@
       svg = svgdoc.getElementById("svg2");
       svgdoc.getElementById("c1").setAttribute("style","stroke:#00ff00");
    };
+
 </script>
 <style>
-
 </style>
 </head>
 <body>
+  <center>
   <object id="zither" data="../static/zither-final.svg" type="image/svg+xml"></object>
+  </center>
 </body>
 </html>
